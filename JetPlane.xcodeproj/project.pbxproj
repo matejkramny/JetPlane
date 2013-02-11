@@ -16,17 +16,6 @@
 		4FB4AA8216C7267B001CB025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB4AA8116C7267B001CB025 /* Foundation.framework */; };
 		4FB4AA8416C7267B001CB025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB4AA8316C7267B001CB025 /* CoreGraphics.framework */; };
 		4FB4AA8616C7267B001CB025 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB4AA8516C7267B001CB025 /* GameKit.framework */; };
-		4FB4AA8A16C7267B001CB025 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA8916C7267B001CB025 /* Default.png */; };
-		4FB4AA8C16C7267B001CB025 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA8B16C7267B001CB025 /* Default@2x.png */; };
-		4FB4AA8E16C7267B001CB025 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA8D16C7267B001CB025 /* Default-568h@2x.png */; };
-		4FB4AA9016C7267B001CB025 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA8F16C7267B001CB025 /* Default-Landscape~ipad.png */; };
-		4FB4AA9216C7267B001CB025 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9116C7267B001CB025 /* Icon-72.png */; };
-		4FB4AA9416C7267B001CB025 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9316C7267B001CB025 /* Icon-Small-50.png */; };
-		4FB4AA9616C7267B001CB025 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9516C7267B001CB025 /* Icon-Small.png */; };
-		4FB4AA9816C7267B001CB025 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9716C7267B001CB025 /* Icon-Small@2x.png */; };
-		4FB4AA9A16C7267B001CB025 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9916C7267B001CB025 /* Icon.png */; };
-		4FB4AA9C16C7267B001CB025 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9B16C7267B001CB025 /* Icon@2x.png */; };
-		4FB4AA9F16C7267B001CB025 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AA9E16C7267B001CB025 /* iTunesArtwork */; };
 		4FB4AAA416C7267B001CB025 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AAA316C7267B001CB025 /* CCAction.m */; };
 		4FB4AAA716C7267B001CB025 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AAA616C7267B001CB025 /* CCActionCamera.m */; };
 		4FB4AAAA16C7267B001CB025 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AAA916C7267B001CB025 /* CCActionCatmullRom.m */; };
@@ -137,8 +126,16 @@
 		4FB4AC0F16C72680001CB025 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC0E16C72680001CB025 /* vec4.c */; };
 		4FB4AC1416C72680001CB025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC1316C72680001CB025 /* main.m */; };
 		4FB4AC1716C72680001CB025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC1616C72680001CB025 /* AppDelegate.m */; };
-		4FB4AC1A16C72680001CB025 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC1916C72680001CB025 /* HelloWorldLayer.m */; };
-		4FB4AC1D16C72680001CB025 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC1C16C72680001CB025 /* IntroLayer.m */; };
+		4FB4AC2516C726FE001CB025 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC2416C726FE001CB025 /* MainMenuScene.m */; };
+		4FB4AC2816C72BE1001CB025 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC2716C72BE1001CB025 /* GameScene.m */; };
+		4FB4AC2B16C72BE8001CB025 /* OptionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4AC2A16C72BE8001CB025 /* OptionsScene.m */; };
+		4FB4AC2E16C72FF6001CB025 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AC2C16C72FF6001CB025 /* ship.png */; };
+		4FB4AC2F16C72FF6001CB025 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AC2D16C72FF6001CB025 /* square.png */; };
+		4FB4AC3116C73F6B001CB025 /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AC3016C73F6B001CB025 /* map.tmx */; };
+		4FB4AC3316C7FF8D001CB025 /* maptile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4AC3216C7FF8D001CB025 /* maptile.png */; };
+		4FF1C25416C8445400C3BBB5 /* maptile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF1C25316C8445400C3BBB5 /* maptile-hd.png */; };
+		4FF1C25616C844A000C3BBB5 /* map-hd.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4FF1C25516C844A000C3BBB5 /* map-hd.tmx */; };
+		4FF1C25816C8452900C3BBB5 /* ship-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF1C25716C8452900C3BBB5 /* ship-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,18 +149,7 @@
 		4FB4AA8116C7267B001CB025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4FB4AA8316C7267B001CB025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4FB4AA8516C7267B001CB025 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		4FB4AA8916C7267B001CB025 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		4FB4AA8B16C7267B001CB025 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
-		4FB4AA8D16C7267B001CB025 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		4FB4AA8F16C7267B001CB025 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		4FB4AA9116C7267B001CB025 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
-		4FB4AA9316C7267B001CB025 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		4FB4AA9516C7267B001CB025 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		4FB4AA9716C7267B001CB025 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		4FB4AA9916C7267B001CB025 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		4FB4AA9B16C7267B001CB025 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		4FB4AA9D16C7267B001CB025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
-		4FB4AA9E16C7267B001CB025 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		4FB4AAA216C7267B001CB025 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = libs/cocos2d/CCAction.h; sourceTree = "<group>"; };
 		4FB4AAA316C7267B001CB025 /* CCAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CCAction.m; path = libs/cocos2d/CCAction.m; sourceTree = "<group>"; };
 		4FB4AAA516C7267B001CB025 /* CCActionCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCActionCamera.h; path = libs/cocos2d/CCActionCamera.h; sourceTree = "<group>"; };
@@ -416,10 +402,19 @@
 		4FB4AC1316C72680001CB025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FB4AC1516C72680001CB025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FB4AC1616C72680001CB025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FB4AC1816C72680001CB025 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		4FB4AC1916C72680001CB025 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		4FB4AC1B16C72680001CB025 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		4FB4AC1C16C72680001CB025 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		4FB4AC2316C726FE001CB025 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		4FB4AC2416C726FE001CB025 /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		4FB4AC2616C72BE1001CB025 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		4FB4AC2716C72BE1001CB025 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		4FB4AC2916C72BE8001CB025 /* OptionsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsScene.h; sourceTree = "<group>"; };
+		4FB4AC2A16C72BE8001CB025 /* OptionsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsScene.m; sourceTree = "<group>"; };
+		4FB4AC2C16C72FF6001CB025 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ship.png; path = Resources/ship.png; sourceTree = "<group>"; };
+		4FB4AC2D16C72FF6001CB025 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = Resources/square.png; sourceTree = "<group>"; };
+		4FB4AC3016C73F6B001CB025 /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = map.tmx; path = Resources/map.tmx; sourceTree = "<group>"; };
+		4FB4AC3216C7FF8D001CB025 /* maptile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maptile.png; path = Resources/maptile.png; sourceTree = "<group>"; };
+		4FF1C25316C8445400C3BBB5 /* maptile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "maptile-hd.png"; path = "Resources/maptile-hd.png"; sourceTree = "<group>"; };
+		4FF1C25516C844A000C3BBB5 /* map-hd.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "map-hd.tmx"; path = "Resources/map-hd.tmx"; sourceTree = "<group>"; };
+		4FF1C25716C8452900C3BBB5 /* ship-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ship-hd.png"; path = "Resources/ship-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -480,10 +475,12 @@
 			children = (
 				4FB4AC1516C72680001CB025 /* AppDelegate.h */,
 				4FB4AC1616C72680001CB025 /* AppDelegate.m */,
-				4FB4AC1816C72680001CB025 /* HelloWorldLayer.h */,
-				4FB4AC1916C72680001CB025 /* HelloWorldLayer.m */,
-				4FB4AC1B16C72680001CB025 /* IntroLayer.h */,
-				4FB4AC1C16C72680001CB025 /* IntroLayer.m */,
+				4FB4AC2316C726FE001CB025 /* MainMenuScene.h */,
+				4FB4AC2416C726FE001CB025 /* MainMenuScene.m */,
+				4FB4AC2616C72BE1001CB025 /* GameScene.h */,
+				4FB4AC2716C72BE1001CB025 /* GameScene.m */,
+				4FB4AC2916C72BE8001CB025 /* OptionsScene.h */,
+				4FB4AC2A16C72BE8001CB025 /* OptionsScene.m */,
 				4FB4AA8816C7267B001CB025 /* Resources */,
 				4FB4AAA016C7267B001CB025 /* libs */,
 				4FB4AC1116C72680001CB025 /* Supporting Files */,
@@ -494,18 +491,14 @@
 		4FB4AA8816C7267B001CB025 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4FB4AA8916C7267B001CB025 /* Default.png */,
-				4FB4AA8B16C7267B001CB025 /* Default@2x.png */,
-				4FB4AA8D16C7267B001CB025 /* Default-568h@2x.png */,
-				4FB4AA8F16C7267B001CB025 /* Default-Landscape~ipad.png */,
-				4FB4AA9116C7267B001CB025 /* Icon-72.png */,
-				4FB4AA9316C7267B001CB025 /* Icon-Small-50.png */,
-				4FB4AA9516C7267B001CB025 /* Icon-Small.png */,
-				4FB4AA9716C7267B001CB025 /* Icon-Small@2x.png */,
-				4FB4AA9916C7267B001CB025 /* Icon.png */,
-				4FB4AA9B16C7267B001CB025 /* Icon@2x.png */,
 				4FB4AA9D16C7267B001CB025 /* Info.plist */,
-				4FB4AA9E16C7267B001CB025 /* iTunesArtwork */,
+				4FB4AC2C16C72FF6001CB025 /* ship.png */,
+				4FF1C25716C8452900C3BBB5 /* ship-hd.png */,
+				4FB4AC2D16C72FF6001CB025 /* square.png */,
+				4FB4AC3216C7FF8D001CB025 /* maptile.png */,
+				4FF1C25316C8445400C3BBB5 /* maptile-hd.png */,
+				4FB4AC3016C73F6B001CB025 /* map.tmx */,
+				4FF1C25516C844A000C3BBB5 /* map-hd.tmx */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -880,6 +873,7 @@
 				4FB4AA6E16C7267B001CB025 /* Sources */,
 				4FB4AA6F16C7267B001CB025 /* Frameworks */,
 				4FB4AA7016C7267B001CB025 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -921,22 +915,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB4AA8A16C7267B001CB025 /* Default.png in Resources */,
-				4FB4AA8C16C7267B001CB025 /* Default@2x.png in Resources */,
-				4FB4AA8E16C7267B001CB025 /* Default-568h@2x.png in Resources */,
-				4FB4AA9016C7267B001CB025 /* Default-Landscape~ipad.png in Resources */,
-				4FB4AA9216C7267B001CB025 /* Icon-72.png in Resources */,
-				4FB4AA9416C7267B001CB025 /* Icon-Small-50.png in Resources */,
-				4FB4AA9616C7267B001CB025 /* Icon-Small.png in Resources */,
-				4FB4AA9816C7267B001CB025 /* Icon-Small@2x.png in Resources */,
-				4FB4AA9A16C7267B001CB025 /* Icon.png in Resources */,
-				4FB4AA9C16C7267B001CB025 /* Icon@2x.png in Resources */,
-				4FB4AA9F16C7267B001CB025 /* iTunesArtwork in Resources */,
 				4FB4ABF516C7267F001CB025 /* ChangeLog in Resources */,
+				4FB4AC2E16C72FF6001CB025 /* ship.png in Resources */,
+				4FB4AC2F16C72FF6001CB025 /* square.png in Resources */,
+				4FB4AC3116C73F6B001CB025 /* map.tmx in Resources */,
+				4FB4AC3316C7FF8D001CB025 /* maptile.png in Resources */,
+				4FF1C25416C8445400C3BBB5 /* maptile-hd.png in Resources */,
+				4FF1C25616C844A000C3BBB5 /* map-hd.tmx in Resources */,
+				4FF1C25816C8452900C3BBB5 /* ship-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FB4AA6E16C7267B001CB025 /* Sources */ = {
@@ -1052,8 +1058,9 @@
 				4FB4AC0F16C72680001CB025 /* vec4.c in Sources */,
 				4FB4AC1416C72680001CB025 /* main.m in Sources */,
 				4FB4AC1716C72680001CB025 /* AppDelegate.m in Sources */,
-				4FB4AC1A16C72680001CB025 /* HelloWorldLayer.m in Sources */,
-				4FB4AC1D16C72680001CB025 /* IntroLayer.m in Sources */,
+				4FB4AC2516C726FE001CB025 /* MainMenuScene.m in Sources */,
+				4FB4AC2816C72BE1001CB025 /* GameScene.m in Sources */,
+				4FB4AC2B16C72BE8001CB025 /* OptionsScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,7 +1071,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1085,7 +1092,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
@@ -1104,6 +1111,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1124,6 +1132,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = JetPlane/Prefix.pch;
@@ -1159,6 +1168,7 @@
 				4FB4AC2216C72680001CB025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
